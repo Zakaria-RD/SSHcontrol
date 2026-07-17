@@ -30,8 +30,8 @@ CHAT_ID="YOUR_TELEGRAM_CHAT_ID"
 WHITELIST_IPS="/home/pc/whitel.txt"
 
 ### Create the Whitelist file:
-mkdir -p /home/pc/
-echo "127.0.0.1" > /home/pc/whitel.txt
+mkdir -p /home/pc/                       
+echo "127.0.0.1" > /home/pc/whitel.txt            
 *(Add any other safe IPs you want to ignore, one per line)*
 
 ---
@@ -60,4 +60,4 @@ When you run the tool, it checks if the background monitor is already running:
 The report will be saved in your current directory as YYYY-MM-DD_report.txt format:
 
  15  198.51.100.42
-  3  203.0.113.5
+ 3  203.0.113.5
