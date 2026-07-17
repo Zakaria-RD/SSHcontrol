@@ -1,7 +1,7 @@
 #! /bash/bin
 
-chmod +x SSHcontrol
-mv SSHcontrol /usr/local/bin/SSHcontrol
+chmod +x SSHcontrol.sh
+mv SSHcontrol.sh /usr/local/bin/SSHcontrol
 if ["$?" == 0]
 then
 	echo "installation successfully done"
